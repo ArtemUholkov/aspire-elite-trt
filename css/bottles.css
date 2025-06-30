@@ -1,0 +1,45 @@
+.bottles {
+  padding: 160px 0 0 0;
+  position: relative;
+  /* overflow-x: hidden; */
+}
+.bottles_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bottles_img {
+  max-width: 480px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.bot_prices_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.prices_subtitle {
+  color: var(--Charcoal-gray, #111);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+@media (max-width: 1440px) {
+  .bottles_wrapper {
+    justify-content: center;
+  }
+  .bot_prices_wrapper {
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .bottles {
+    padding: 100px 0 0 0;
+  }
+}

@@ -1,0 +1,111 @@
+.transform {
+  padding: 160px 0 0 0;
+}
+
+.transform_sub_text {
+  color: var(--Gold, #d3a221);
+  text-align: center;
+  /* H3 */
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 31.2px */
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.transform_title {
+  text-align: center;
+  margin-bottom: 22px;
+}
+.transform_text {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 62px;
+  max-width: 774px;
+}
+.transform_items_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+  align-items: stretch;
+  justify-content: center;
+  margin-bottom: 82px;
+}
+
+.transform_item {
+  position: relative;
+  max-width: 442px;
+  min-height: 360px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 32px 32px 22px 32px;
+  border-radius: 20px;
+  border: 2px solid var(--LIner, #f5a302);
+  background: var(--Dark, #0a0a0a);
+  overflow: hidden;
+}
+.transform_item_img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 350px;
+  max-height: 350px;
+}
+.transform_item_title {
+  color: var(--Light, #fefefe);
+  /* H3 */
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 31.2px */
+  text-transform: uppercase;
+}
+.transform_item_text {
+  color: var(--Light, #fefefe);
+  /* body text desktop */
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+}
+
+.transform_button {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 356px;
+  padding: 20px 20px;
+}
+@media (max-width: 768px) {
+  .transform {
+    padding: 100px 0 0 0;
+  }
+  .transform_title {
+    margin-bottom: 16px;
+  }
+  .transform_sub_text {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .transform_text {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+  .transform_items_wrapper {
+    margin-bottom: 32px;
+    gap: 32px;
+  }
+  .transform_item {
+    padding: 22px 20px;
+  }
+  .transform_item_img {
+    right: -70px;
+    bottom: -70px;
+  }
+}

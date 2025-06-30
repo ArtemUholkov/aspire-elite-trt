@@ -1,0 +1,14 @@
+/* Common styles shared across sections */
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1460px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+body {
+  background-color: #181c21;
+  overflow-x: hidden;
+}

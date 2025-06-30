@@ -1,0 +1,36 @@
+.contact {
+  padding-top: 160px;
+}
+.contact_wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 52px 48px 51px 49px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border: 1px solid var(--LIner, #f5a302);
+  background: #fefefe;
+}
+@media (max-width: 768px) {
+  .contact {
+    padding-top: 100px;
+  }
+}
+.contact_title {
+  color: var(--Charcoal-gray, #111);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 48px */
+  text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .contact_title {
+    font-size: 32px;
+  }
+  .contact_wrapper {
+    padding: 52px 0 0 0;
+  }
+}

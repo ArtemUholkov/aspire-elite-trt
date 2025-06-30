@@ -1,0 +1,110 @@
+.whochoose {
+  padding-top: 160px;
+  overflow-x: hidden;
+}
+.section_title_whochoose {
+  margin: 0 auto;
+  text-align: center;
+}
+.section_subtitle {
+  color: var(--Gold, #d3a221);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+.section_text {
+  color: var(--Light, #fefefe);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+}
+.section_text_whochoose {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 750px;
+}
+.whochoose_items_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 47px;
+  margin-bottom: 62px;
+  margin-top: 62px;
+}
+.whochoose_item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 22px 32px;
+  border-radius: 20px;
+  border: 2px solid var(--LIner, #f5a302);
+  background: var(--Dark, #0a0a0a);
+}
+.whochoose_img {
+  width: 68px;
+  height: 68px;
+  margin-bottom: 32px;
+}
+.whochoose_title {
+  color: var(--Light, #fefefe);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 28.8px */
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.whochoose_text {
+  color: var(--Light, #fefefe);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+}
+
+.whochoose_button {
+  display: block;
+  padding: 20px 60px;
+  margin: 0 auto;
+  text-align: center;
+}
+@media (max-width: 1360px) {
+  .whochoose_items_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .whochoose_items_wrapper {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .whochoose_item {
+    padding: 22px;
+    min-width: 335px;
+  }
+  .whochoose {
+    padding-top: 100px;
+  }
+}

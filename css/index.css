@@ -1,0 +1,28 @@
+/* Import reset styles */
+@import 'reset.css';
+
+/* Import common styles */
+@import 'common.css';
+
+/* Import section-specific styles */
+@import 'header.css';
+@import 'main.css';
+@import 'banner.css';
+@import 'process.css';
+@import 'founder.css';
+@import 'treatments.css';
+@import 'prices.css';
+@import 'whochoose.css';
+@import 'faqs.css';
+@import 'reviews.css';
+@import 'contact.css';
+@import 'footer.css';
+@import 'transform.css';
+@import 'bottles.css';
+@import 'steps.css';
+/* Main styles */
+:root {
+  /* Add your CSS variables here */
+}
+
+/* Add your custom styles below */
