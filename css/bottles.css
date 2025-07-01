@@ -2,6 +2,7 @@
   padding: 160px 0 0 0;
   position: relative;
   overflow-x: visible;
+  overflow: visible;
 }
 .bottles_wrapper {
   display: flex;
