@@ -20,4 +20,30 @@ document.addEventListener('DOMContentLoaded', function () {
   if (processSection) {
     observer.observe(processSection);
   }
+
+  // Initialize mobile steps swiper
+  const stepsMobileSwiper = new Swiper('.steps-mobile-swiper', {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: false,
+    pagination: {
+      el: '.steps-mobile-pagination',
+      clickable: true,
+      // dynamicBullets: true,
+    },
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 40,
+      },
+    },
+  });
 });

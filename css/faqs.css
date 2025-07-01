@@ -1,6 +1,6 @@
 .faq {
   padding-top: 160px;
-  /* overflow: hidden; */
+  overflow: visible;
   position: relative;
 }
 .gradient7 {

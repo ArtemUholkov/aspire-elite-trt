@@ -12,3 +12,6 @@ body {
   background-color: #181c21;
   overflow-x: hidden;
 }
+section {
+  overflow: hidden;
+}

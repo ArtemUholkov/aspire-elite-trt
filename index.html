@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
+    <title>Aspire Meds Elite - TRT</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,15 +18,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="icon" type="image/x-icon" href="images/global/favicon-32x32.png" />
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
     <header class="header">
       <div class="header_wrapper mycontainer">
         <nav class="navbar">
-          <a href="/elite" class="logo_wrapper">
+          <a href="/elite/trt" class="logo_wrapper">
             <img src="images/global/logo2.png" alt="logo" class="main-logo logo-white" />
             <img src="images/global/logo2.png" alt="logo" class="main-logo logo-hide logo-color" />
           </a>
@@ -80,12 +80,20 @@
         <div class="main_overlay"></div>
       </div>
       <div class="container main_content">
-        <h1 class="main_title">TESTOSTERONE REPLACEMENT THERAPY FOR MEN</h1>
-        <p class="main_subtitle">
+        <h1 class="main_title" data-aos="fade-up" data-aos-delay="200">
+          TESTOSTERONE REPLACEMENT THERAPY FOR MEN
+        </h1>
+        <p class="main_subtitle" data-aos="fade-up" data-aos-delay="400">
           Boost your energy, mood, and overall wellness with proven solutions for testosterone
           balance.
         </p>
-        <a href="#contact" class="main_button main_item_button">Get Started</a>
+        <a
+          href="#contact"
+          class="main_button main_item_button"
+          data-aos="fade-up"
+          data-aos-delay="600"
+          >Get Started</a
+        >
       </div>
       <!-- <div class="main_content">
         <h1 class="main_title">TESTOSTERONE REPLACEMENT THERAPY FOR MEN</h1>
@@ -99,27 +107,29 @@
     <section class="banner" id="about-us">
       <div class="container banner_container">
         <div class="banner_wrapper">
-          <h2 class="section_title banner_title">Not Feeling Like Yourself Lately?</h2>
-          <p class="section_text-banner">
+          <h2 class="section_title banner_title" data-aos="fade-up">
+            Not Feeling Like Yourself Lately?
+          </h2>
+          <p class="section_text-banner" data-aos="fade-up" data-aos-delay="200">
             If you've been experiencing any of the following symptoms, Testosterone Replacement
             Therapy (TRT) could be the solution you've been looking for:
           </p>
           <div class="banner_items-wrapper">
-            <div class="banner_item">
+            <div class="banner_item" data-aos="fade-up" data-aos-delay="100">
               <img src="images/banner/1.webp" alt="Banner Item" class="banner_item_img" />
               <div class="banner_item_text-wrapper small-padding">
                 <p class="banner_item_title">Chronic Fatigue</p>
                 <p class="banner_item_text">Feeling exhausted no matter how much rest you get?</p>
               </div>
             </div>
-            <div class="banner_item">
+            <div class="banner_item" data-aos="fade-up" data-aos-delay="200">
               <img src="images/banner/2.webp" alt="Banner Item" class="banner_item_img" />
               <div class="banner_item_text-wrapper small-padding">
                 <p class="banner_item_title">Decreased Libido</p>
                 <p class="banner_item_text">A noticeable drop in sexual desire or performance?</p>
               </div>
             </div>
-            <div class="banner_item">
+            <div class="banner_item" data-aos="fade-up" data-aos-delay="300">
               <img src="images/banner/3.webp" alt="Banner Item" class="banner_item_img" />
               <div class="banner_item_text-wrapper">
                 <p class="banner_item_title">Mood Swings or Depression</p>
@@ -128,7 +138,7 @@
                 </p>
               </div>
             </div>
-            <div class="banner_item">
+            <div class="banner_item" data-aos="fade-up" data-aos-delay="400">
               <img src="images/banner/4.webp" alt="Banner Item" class="banner_item_img" />
               <div class="banner_item_text-wrapper small-padding">
                 <p class="banner_item_title">Reduced Muscle Mass</p>
@@ -137,7 +147,7 @@
                 </p>
               </div>
             </div>
-            <div class="banner_item">
+            <div class="banner_item" data-aos="fade-up" data-aos-delay="500">
               <img src="images/banner/5.webp" alt="Banner Item" class="banner_item_img" />
               <div class="banner_item_text-wrapper small-padding">
                 <p class="banner_item_title">Increased Body Fat</p>
@@ -146,14 +156,14 @@
                 </p>
               </div>
             </div>
-            <div class="banner_item">
+            <div class="banner_item" data-aos="fade-up" data-aos-delay="600">
               <img src="images/banner/6.webp" alt="Banner Item" class="banner_item_img" />
               <div class="banner_item_text-wrapper">
                 <p class="banner_item_title">Brain Fog or Difficulty Focusing</p>
                 <p class="banner_item_text">Having trouble concentrating or remembering things?</p>
               </div>
             </div>
-            <div class="banner_item">
+            <div class="banner_item" data-aos="fade-up" data-aos-delay="700">
               <img src="images/banner/7.webp" alt="Banner Item" class="banner_item_img" />
               <div class="banner_item_text-wrapper">
                 <p class="banner_item_title">Decreased Bone Density</p>
@@ -161,35 +171,48 @@
               </div>
             </div>
           </div>
-          <p class="section_text-banner" style="margin-top: 50px">
+          <p
+            class="section_text-banner"
+            style="margin-top: 50px"
+            data-aos="fade-up"
+            data-aos-delay="800"
+          >
             If any of these symptoms sound familiar, it could be due to low testosterone levels. TRT
             is designed to help men like you restore balance and regain vitality. Take the first
             step today!
           </p>
-          <a href="#contact" class="main_button main_item_button banner_button">Explore TRT</a>
+          <a
+            href="#contact"
+            class="main_button main_item_button banner_button"
+            data-aos="fade-up"
+            data-aos-delay="1000"
+            >Explore TRT</a
+          >
         </div>
       </div>
     </section>
-    <section class="transform">
+    <section class="transform" id="benefits">
       <div class="container">
-        <h2 class="section_title transform_title">How TRT Can Transform Your Life</h2>
-        <p class="transform_sub_text">
+        <h2 class="section_title transform_title" data-aos="fade-up">
+          How TRT Can Transform Your Life
+        </h2>
+        <p class="transform_sub_text" data-aos="fade-up" data-aos-delay="200">
           Aspire Elite offers specialized Testosterone Replacement Therapy (TRT) programs to help
           men restore healthy testosterone levels.
         </p>
-        <p class="section_text transform_text">
+        <p class="section_text transform_text" data-aos="fade-up" data-aos-delay="400">
           Our comprehensive approach integrates tailored medical care, hormone optimization, and
           continuous support, all within a nurturing and supportive environment.
         </p>
         <div class="transform_items_wrapper">
-          <div class="transform_item">
+          <div class="transform_item" data-aos="fade-up" data-aos-delay="100">
             <img src="images/transform/1.svg" alt="Transform Item" class="transform_item_img" />
             <p class="transform_item_title">Improved Libido and Sexual Function</p>
             <p class="transform_item_text">
               Many men experience enhanced libido, sexual performance, and satisfaction with TRT.
             </p>
           </div>
-          <div class="transform_item">
+          <div class="transform_item" data-aos="fade-up" data-aos-delay="200">
             <img src="images/transform/2.svg" alt="Transform Item" class="transform_item_img" />
             <p class="transform_item_title">Reduced Visceral Fat and Improved Body Composition</p>
             <p class="transform_item_text">
@@ -198,7 +221,7 @@
               better metabolic health and can boost self-confidence.
             </p>
           </div>
-          <div class="transform_item">
+          <div class="transform_item" data-aos="fade-up" data-aos-delay="300">
             <img src="images/transform/3.svg" alt="Transform Item" class="transform_item_img" />
             <p class="transform_item_title">Increased Energy and Vitality</p>
             <p class="transform_item_text">
@@ -206,7 +229,7 @@
               motivation.
             </p>
           </div>
-          <div class="transform_item">
+          <div class="transform_item" data-aos="fade-up" data-aos-delay="400">
             <img src="images/transform/4.svg" alt="Transform Item" class="transform_item_img" />
             <p class="transform_item_title">Enhanced Mood and Mental Clarity</p>
             <p class="transform_item_text">
@@ -214,7 +237,7 @@
               well-being.
             </p>
           </div>
-          <div class="transform_item">
+          <div class="transform_item" data-aos="fade-up" data-aos-delay="500">
             <img src="images/transform/5.svg" alt="Transform Item" class="transform_item_img" />
             <p class="transform_item_title">Restored Muscle Mass and Strength</p>
             <p class="transform_item_text">
@@ -223,7 +246,11 @@
             </p>
           </div>
         </div>
-        <a href="#contact" class="main_button main_item_button transform_button"
+        <a
+          href="#contact"
+          class="main_button main_item_button transform_button"
+          data-aos="fade-up"
+          data-aos-delay="600"
           >Get Personalized Plan</a
         >
       </div>
@@ -233,7 +260,13 @@
 
       <div class="container">
         <div class="bottles_wrapper">
-          <img src="images/bottles/bottles.png" alt="Bottles" class="bottles_img" />
+          <img
+            src="images/bottles/bottles.png"
+            alt="Bottles"
+            class="bottles_img"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          />
           <div class="bot_prices_wrapper">
             <div class="prices_item" data-aos="fade-right" data-aos-delay="0">
               <p class="prices_title">TESTOSTERONE REPLACEMENT THERAPY (TRT)</p>
@@ -433,26 +466,26 @@
       </div>
     </section>
 
-    <section class="steps">
+    <section class="steps" id="how-to-start">
       <div class="container">
         <div class="steps_wrapper">
-          <h2 class="section_title">Step-by-step<br />process</h2>
+          <h2 class="section_title" data-aos="fade-up">Step-by-step<br />process</h2>
           <div class="steps_items_wrapper">
-            <div class="steps_item">
+            <div class="steps_item" data-aos="fade-left" data-aos-delay="100">
               <img src="images/steps/11.png" alt="Step" class="steps_number" />
               <div class="steps_text_wrapper">
                 <p class="step_title">Fill out a quick online<br />form</p>
                 <img src="images/steps/1.svg" alt="Step" class="steps_img" />
               </div>
             </div>
-            <div class="steps_item">
+            <div class="steps_item" data-aos="fade-left" data-aos-delay="200">
               <img src="images/steps/22.png" alt="Step" class="steps_number" />
               <div class="steps_text_wrapper">
                 <p class="step_title">Book your free<br />consultation</p>
                 <img src="images/steps/2.svg" alt="Step" class="steps_img" />
               </div>
             </div>
-            <div class="steps_item">
+            <div class="steps_item" data-aos="fade-left" data-aos-delay="300">
               <img src="images/steps/33.png" alt="Step" class="steps_number" />
               <div class="steps_text_wrapper">
                 <p class="step_title">
@@ -461,7 +494,7 @@
                 <img src="images/steps/3.svg" alt="Step" class="steps_img" />
               </div>
             </div>
-            <div class="steps_item">
+            <div class="steps_item" data-aos="fade-left" data-aos-delay="400">
               <img src="images/steps/44.png" alt="Step" class="steps_number" />
               <div class="steps_text_wrapper">
                 <p class="step_title">Receive your medication<br />within 72 hours</p>
@@ -470,6 +503,51 @@
             </div>
           </div>
         </div>
+        <div class="steps_mob_wrapper">
+          <div class="swiper steps-mobile-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="steps_mob_item">
+                  <img src="images/steps/11.png" alt="Step" class="steps_mob_number" />
+                  <div class="steps_mob_text_wrapper">
+                    <p class="steps_mob_title">Fill out a quick online form</p>
+                    <img src="images/steps/1.svg" alt="Step" class="steps_mob_img" />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="steps_mob_item">
+                  <img src="images/steps/22.png" alt="Step" class="steps_mob_number" />
+                  <div class="steps_mob_text_wrapper">
+                    <p class="steps_mob_title">Book your free consultation</p>
+                    <img src="images/steps/2.svg" alt="Step" class="steps_mob_img" />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="steps_mob_item">
+                  <img src="images/steps/33.png" alt="Step" class="steps_mob_number" />
+                  <div class="steps_mob_text_wrapper">
+                    <p class="steps_mob_title">
+                      Consult with a provider and complete lab work if needed
+                    </p>
+                    <img src="images/steps/3.svg" alt="Step" class="steps_mob_img" />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="steps_mob_item">
+                  <img src="images/steps/44.png" alt="Step" class="steps_mob_number" />
+                  <div class="steps_mob_text_wrapper">
+                    <p class="steps_mob_title">Receive your medication within 72 hours</p>
+                    <img src="images/steps/4.svg" alt="Step" class="steps_mob_img" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination steps-mobile-pagination"></div>
       </div>
     </section>
 
@@ -485,10 +563,11 @@
               alt="Chris Van Smith"
               class="founder_photo"
               data-aos="fade-right"
+              data-aos-delay="200"
             />
             <div class="founder_play-btn"></div>
           </div>
-          <div class="founder_info" data-aos="fade-left">
+          <div class="founder_info" data-aos="fade-left" data-aos-delay="400">
             <h2 class="section_title">Meet Founder here</h2>
             <div
               class="img_wrap-mob"
@@ -517,7 +596,7 @@
     </section>
     <section class="reviews" id="reviews">
       <div class="container">
-        <h2 class="section_title section_title_reviews" data-aos="fade-up">
+        <h2 class="section_title section_title_reviews" data-aos="fade-up" data-aos-delay="200">
           What Our Patients Are Saying
         </h2>
         <div class="reviews_items_wrapper">
@@ -526,40 +605,36 @@
               <div class="swiper-slide">
                 <div class="reviews_item">
                   <img src="images/reviews/1.png" alt="Review" class="reviews_img" />
-                  <p class="reviews_name">Michael T.</p>
-                  <p class="reviews_title">"A Life-Changing Experience!"</p>
+                  <p class="reviews_name">James R.</p>
+                  <p class="reviews_title">50 y.o.</p>
                   <p class="reviews_text">
-                    "I came to Aspire Meds for hormone replacement therapy, and the results have
-                    been amazing. Not only do I feel more energized and focused, but my overall mood
-                    and well-being have greatly improved. Dr. Chris Van Smith and his team truly
-                    listen to your concerns and create personalized treatment plans. I'm so glad I
-                    chose Aspire Meds!"
+                    “TRT at Aspire Elite helped me reclaim my vitality. I'm now more active, feel
+                    younger, and am living my best life. The ongoing support made all the
+                    difference.”
                   </p>
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="reviews_item">
                   <img src="images/reviews/2.png" alt="Review" class="reviews_img" />
-                  <p class="reviews_name">Allan L.</p>
-                  <p class="reviews_title">"Professional, Knowledgeable,<br />and Compassionate"</p>
+                  <p class="reviews_name">David M.</p>
+                  <p class="reviews_title">40 y.o.</p>
                   <p class="reviews_text">
-                    "From my first consultation to my ongoing treatment, the team at Aspire Meds has
-                    been nothing short of outstanding. The care I received was personalized and
-                    effective. Dr. Smith is incredibly knowledgeable and always took the time to
-                    answer my questions. I highly recommend Aspire Meds!"
+                    “I started TRT at Aspire Elite a few months ago, and the results have been
+                    incredible. I feel more energetic, focused, and confident than ever before.
+                    Highly recommend it!”
                   </p>
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="reviews_item">
                   <img src="images/reviews/3.png" alt="Review" class="reviews_img" />
-                  <p class="reviews_name">David R.</p>
-                  <p class="reviews_title">"I Feel Like Myself Again"</p>
+                  <p class="reviews_name">John L.</p>
+                  <p class="reviews_title">45 y.o.</p>
                   <p class="reviews_text">
-                    "I struggled with weight management for years and tried countless programs
-                    without success. After starting the weight loss peptides at Aspire Meds, I've
-                    lost weight and gained back my confidence. The team is supportive, and the
-                    treatment plan was perfectly tailored to me."
+                    “After starting TRT, my energy levels skyrocketed, and my mood improved
+                    drastically. Aspire Elite has been amazing in guiding me through the whole
+                    process.”
                   </p>
                 </div>
               </div>
@@ -907,11 +982,17 @@
     <section class="faq" id="faq">
       <div class="gradient5 gradient7"></div>
       <div class="container">
-        <p class="faq_title">FAQs</p>
-        <img src="images/faq/Group.png" alt="woman" class="faq_img" />
-        <div class="faq-item" id="faq1">
+        <p class="faq_title" data-aos="fade-up">FAQs</p>
+        <img
+          src="images/faq/Group.png"
+          alt="woman"
+          class="faq_img"
+          data-aos="fade-left"
+          data-aos-delay="300"
+        />
+        <div class="faq-item" id="faq1" data-aos="fade-up" data-aos-delay="100">
           <div class="question-wrapper" id="faq-click" onclick="toggleAnswer('faq1')">
-            <h3 class="question">1. What Is Aspire Elite?</h3>
+            <h3 class="question">1. What is Testosterone Replacement Therapy (TRT)?</h3>
             <div class="circle-wrapper">
               <span class="plus-minus-icon">+</span>
             </div>
@@ -919,17 +1000,16 @@
           <div class="answer-wrapper">
             <div class="separator"></div>
             <p class="answer">
-              An exclusive, limited member, 1-1 physician directed health optimization service
-              featuring comprehensive diagnostic testing, a specific custom long term treatment plan
-              including hormone and peptide therapy with the goal of improving our patient's overall
-              health, body composition, while maximizing cognitive function and longevity.
+              TRT is a treatment designed to restore normal testosterone levels in men who
+              experience symptoms of low testosterone. It can significantly improve energy, mood,
+              libido, and muscle mass.
             </p>
           </div>
         </div>
 
-        <div class="faq-item" id="faq2">
+        <div class="faq-item" id="faq2" data-aos="fade-up" data-aos-delay="200">
           <div class="question-wrapper" onclick="toggleAnswer('faq2')">
-            <h3 class="question">2. Why Chose Aspire Elite?</h3>
+            <h3 class="question">2. How does TRT help men with low testosterone?</h3>
             <div class="circle-wrapper">
               <span class="plus-minus-icon">+</span>
             </div>
@@ -937,17 +1017,15 @@
           <div class="answer-wrapper">
             <div class="separator"></div>
             <p class="answer">
-              Many tele-health companies exist but few treat each patient as an individual. At
-              Aspire Elite, Dr. Chris Van Smith will personally direct your patient care to reach
-              your health and fitness goals. He will temain in regular contact, discuss your
-              progress and adjust your protocol to ensure the optimal outcomes.
+              TRT replaces the testosterone your body is lacking, leading to improvements in energy,
+              physical strength, and sexual health, among other benefits.
             </p>
           </div>
         </div>
 
-        <div class="faq-item" id="faq3">
+        <div class="faq-item" id="faq3" data-aos="fade-up" data-aos-delay="300">
           <div class="question-wrapper" onclick="toggleAnswer('faq3')">
-            <h3 class="question">3. What is the process?</h3>
+            <h3 class="question">3. Who is eligible for TRT?</h3>
             <div class="circle-wrapper">
               <span class="plus-minus-icon">+</span>
             </div>
@@ -955,23 +1033,16 @@
           <div class="answer-wrapper">
             <div class="separator"></div>
             <p class="answer">
-              We begin every patient onboard with a thorough physician consultation including
-              medical history, current diet and training protocols, patient goals for overall health
-              fitness and longevity. Then a battery of diagnostic tests including customized blood
-              panels, a Dexa body composition scan and other tests such as VO2 Max depending on
-              patient goals. The doctor will then review all of the results in conjunction with the
-              details from the consultation to develop a custom protocol for each unique patient.
-              Once on the protocol, we will maintain contact, monitor progress, adjust the protocol
-              as needed and continue to measure outcomes with follow up testing and consultations.
+              TRT is suitable for men experiencing symptoms of low testosterone, such as fatigue,
+              mood swings, and decreased libido. A consultation with a healthcare provider will
+              determine if this treatment is right for you.
             </p>
           </div>
         </div>
 
-        <div class="faq-item" id="faq4">
+        <div class="faq-item" id="faq4" data-aos="fade-up" data-aos-delay="400">
           <div class="question-wrapper" onclick="toggleAnswer('faq4')">
-            <h3 class="question">
-              4. What is the difference between<br />Aspire Elite VIP and Ultimate?
-            </h3>
+            <h3 class="question">4. How long will it take to see results from TRT?</h3>
             <div class="circle-wrapper">
               <span class="plus-minus-icon">+</span>
             </div>
@@ -979,13 +1050,38 @@
           <div class="answer-wrapper">
             <div class="separator"></div>
             <p class="answer">
-              The VIP package includes diagnostic testing costs, consultations, ongoing monitoring
-              and a 10% discount on all medications. The Ultimate package is a true concierge
-              experience. Dr. Chris is available 7 days a week for all things related to your
-              protocol, but goes well above and beyond. Wether you are looking for a referral to a
-              specialist, are feeling sick and need a prescription for something such as a z-pack,
-              need a physician note for any reason, have general health questions, have an emergency
-              or anything health and medical related. The doctor is just a message away.
+              Results vary depending on the individual, but many men experience improvements in
+              energy and mood within a few weeks. Full benefits may take a few months to manifest.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item" id="faq5" data-aos="fade-up" data-aos-delay="500">
+          <div class="question-wrapper" onclick="toggleAnswer('faq5')">
+            <h3 class="question">5. How do I schedule an appointment with Aspire Meds?</h3>
+            <div class="circle-wrapper">
+              <span class="plus-minus-icon">+</span>
+            </div>
+          </div>
+          <div class="answer-wrapper">
+            <div class="separator"></div>
+            <p class="answer">
+              You can schedule an appointment by filling out the form on our website or by calling
+              our clinic directly.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item" id="faq6" data-aos="fade-up" data-aos-delay="600">
+          <div class="question-wrapper" onclick="toggleAnswer('faq6')">
+            <h3 class="question">6. Does Aspire Meds offer ongoing support during TRT?</h3>
+            <div class="circle-wrapper">
+              <span class="plus-minus-icon">+</span>
+            </div>
+          </div>
+          <div class="answer-wrapper">
+            <div class="separator"></div>
+            <p class="answer">
+              Yes, we provide continuous support, including follow-up consultations and lifestyle
+              advice, to ensure you're achieving the best results from your treatment.
             </p>
           </div>
         </div>
@@ -995,10 +1091,10 @@
     <section class="contact" id="contact">
       <div class="container">
         <div class="contact_wrapper">
-          <p class="contact_title">Contact Us</p>
+          <p class="contact_title" data-aos="fade-up">Contact Us</p>
           <script
             type="text/javascript"
-            src="https://form.jotform.com/jsform/251592457169164"
+            src="https://form.jotform.com/jsform/251802960794161"
           ></script>
         </div>
       </div>
@@ -1008,7 +1104,7 @@
       <div class="container">
         <div class="footer_wrapper">
           <div class="footer-left">
-            <a href="/elite">
+            <a href="/elite/trt">
               <img src="images/global/logo2.png" alt="logo" class="footer_logo" />
             </a>
 
