@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="../images/global/favicon-32x32.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_wrapper mycontainer">
+        <nav class="navbar">
+          <a href="/elite" class="logo_wrapper">
+            <img src="../images/global/logo2.png" alt="logo" class="main-logo logo-white" />
+            <img
+              src="../images/global/logo2.png"
+              alt="logo"
+              class="main-logo logo-hide logo-color"
+            />
+          </a>
+
+          <ul class="navbar_menu">
+            <li><a class="nav_elem" href="/elite/#about-us">About Us</a></li>
+            <li><a class="nav_elem" href="/elite/#how-to-start">How to start</a></li>
+            <li><a class="nav_elem" href="/elite/#benefits">Benefits</a></li>
+            <li><a class="nav_elem" href="/elite/#reviews">Reviews</a></li>
+          </ul>
+          <div class="header_button_pair">
+            <a href="#contact" class="main_button" onclick="scrollToSub()">Get started</a>
+          </div>
+          <div class="burger">
+            <div class="burger_space" id="burger">
+              <span class="stick"></span>
+              <span class="stick"></span>
+              <span class="stick"></span>
+            </div>
+          </div>
+        </nav>
+        <div class="popup" id="popup">
+          <!-- <img src="img/main/mobbgmenu.png" alt="moblogo" class="mob_menu_bgimage" /> -->
+          <div class="popup_textblock" id="popupSlide">
+            <ul class="navbar_menu_mobile">
+              <li>
+                <a href="/elite/#about-us" class="nav_elem_mobile">About Us</a>
+              </li>
+              <li>
+                <a href="/elite/#how-to-start" class="nav_elem_mobile">How to start</a>
+              </li>
+              <li><a href="/elite/#benefits" class="nav_elem_mobile">Benefits</a></li>
+              <li>
+                <a href="/elite/#reviews" class="nav_elem_mobile">Reviews</a>
+              </li>
+            </ul>
+            <div class="header_button_pair mob_menu_buttons">
+              <a href="/elite/#contact" class="main_button mob_button mob_menu_button"
+                >Get started
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="consultation-booked" style="margin-top: 100px">
+      <div class="container">
+        <div class="consultation-booked_wrapper">
+          <script
+            type="text/javascript"
+            src="https://form.jotform.com/jsform/251658877991176"
+          ></script>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_wrapper">
+          <div class="footer-left">
+            <a href="/elite">
+              <img src="../images/global/logo2.png" alt="logo" class="footer_logo" />
+            </a>
+
+            <div class="social_wrapper">
+              <a
+                href="https://www.facebook.com/profile.php?id=61566299494639"
+                class="social_item"
+                target="_blank"
+              >
+                <img src="../images/footer/facebook.svg" alt="facebook" class="social_img" />
+              </a>
+              <a href="mailto:info@aspiremedsonline.com" class="social_item">
+                <img src="../images/footer/email.svg" alt="email" class="social_img" />
+              </a>
+              <a
+                href="https://www.instagram.com/aspiremeds?igsh=cmh6dTg0Mm0wYmg3"
+                class="social_item"
+                target="_blank"
+              >
+                <img src="../images/footer/instagram.svg" alt="instagram" class="social_img" />
+              </a>
+            </div>
+          </div>
+          <div class="footer_navigation">
+            <p class="column_name">Navigation</p>
+            <a href="/elite/#about-us" class="footer_link">About Us</a>
+            <a href="/elite/#how-to-start" class="footer_link">How to Start</a>
+            <a href="/elite/#benefits" class="footer_link">Benefits</a>
+            <a href="/elite/#reviews" class="footer_link">Reviews</a>
+          </div>
+          <div class="footer_hours">
+            <p class="column_name">Work hours</p>
+
+            <div class="footer_hours_item">
+              <p class="footer_hours_title">Monday - Friday</p>
+              <p class="footer_hours_text">9:00 AM - 5:00 PM</p>
+            </div>
+            <div class="footer_hours_item">
+              <p class="footer_hours_title">Saturday - Sunday</p>
+              <p class="footer_hours_text">By Appointment Only</p>
+            </div>
+          </div>
+          <div class="footer_pharmacy">
+            <p class="column_name">CONTACTS</p>
+            <a href="tel:9045606328" class="phone_wrapper">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                viewBox="0 0 26 26"
+                fill="none"
+              >
+                <path
+                  d="M4.61621 3.61914H9.38281C9.52352 3.61833 9.65914 3.65464 9.77441 3.7207L9.88281 3.79688C9.98275 3.88147 10.0525 3.98747 10.0889 4.10156L10.1143 4.21777C10.2427 5.80248 10.6733 7.35083 11.3848 8.78711V8.78809C11.4507 8.93464 11.4579 9.09697 11.4053 9.24707C11.3656 9.36038 11.2925 9.46397 11.1924 9.54492L11.0859 9.61621L10.0283 10.1895C9.87063 10.2727 9.72676 10.3793 9.60254 10.5059L9.48438 10.6406C9.33519 10.8291 9.22839 11.0476 9.17285 11.2812C9.11734 11.5149 9.11387 11.7574 9.16406 11.9922C9.21334 12.2227 9.31336 12.4387 9.4541 12.6279V12.6289C10.706 14.3725 12.2883 15.8768 14.1182 17.0664V17.0674C14.2671 17.1692 14.4311 17.247 14.6035 17.2988L14.7783 17.3418C14.9557 17.3761 15.1374 17.3832 15.3164 17.3633L15.4951 17.334C15.7306 17.2833 15.9539 17.1858 16.1494 17.0459C16.343 16.9074 16.5041 16.7294 16.624 16.5244L16.625 16.5254L17.2217 15.5303C17.2897 15.4229 17.3901 15.3328 17.5127 15.2734L17.6416 15.2246C17.8231 15.1742 18.018 15.1908 18.1855 15.2695V15.2705L18.1934 15.2734C19.7053 15.9532 21.335 16.363 23.001 16.4844C23.1393 16.4996 23.2667 16.551 23.3711 16.6279L23.4678 16.7139C23.5555 16.8076 23.6118 16.9195 23.6338 17.0361L23.6445 17.1543V21.7607C23.6474 22.0222 23.5908 22.282 23.4775 22.5225C23.3924 22.7032 23.2762 22.8708 23.1338 23.0176L22.9834 23.1572C22.7708 23.3338 22.5185 23.4652 22.2441 23.542C21.9695 23.6188 21.6793 23.6392 21.3955 23.5996L21.3291 24.082L21.3955 23.5986L21.3877 23.5977L20.9414 23.5391C16.4888 22.9056 12.357 20.9694 9.12012 18.0039L8.79883 17.7031C5.51691 14.5684 3.39191 10.5178 2.72656 6.15625L2.66602 5.7334L2.66504 5.72168L2.64551 5.52734C2.64034 5.39725 2.65061 5.26699 2.6748 5.13867L2.72168 4.94824C2.77978 4.75968 2.86947 4.58042 2.98828 4.41797L3.11719 4.26172C3.25481 4.11114 3.41755 3.982 3.59961 3.87988L3.78809 3.78613C3.98238 3.70255 4.19011 3.64964 4.40234 3.62891L4.61621 3.61914Z"
+                  stroke="#FEFEFE"
+                />
+              </svg>
+              <p class="phone_text">904-560-6328</p>
+            </a>
+            <div class="location_wrapper">
+              <div class="loc_item">
+                <img src="../images/footer/icon.svg" alt="location" class="location_icon" />
+                <p class="location_text">
+                  304 Indian Trace<br />
+                  Suite 907<br />
+                  Weston, FL 33326
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
