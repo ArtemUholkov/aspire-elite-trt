@@ -15,10 +15,10 @@ document.addEventListener('DOMContentLoaded', function () {
     },
   );
 
-  // Start observing the process section
-  const processSection = document.querySelector('.process');
-  if (processSection) {
-    observer.observe(processSection);
+  // Start observing the bottles section (where process_bg is located)
+  const bottlesSection = document.querySelector('.bottles');
+  if (bottlesSection) {
+    observer.observe(bottlesSection);
   }
 
   // Initialize mobile steps swiper

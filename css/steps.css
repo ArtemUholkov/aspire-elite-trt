@@ -56,6 +56,9 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  position: relative;
+  display: block;
+  z-index: 3;
 }
 .steps-mobile-pagination {
   opacity: 0;
@@ -117,6 +120,9 @@
   }
 
   .steps_mob_title {
+    position: relative;
+    display: block;
+    z-index: 3;
     color: var(--Black-New, #221f1f);
     font-family: Montserrat;
     font-size: 28px;
@@ -127,6 +133,7 @@
   }
 
   .steps_mob_img {
+    z-index: 0;
     position: absolute;
     bottom: -80px;
     right: -40px;

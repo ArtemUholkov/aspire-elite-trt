@@ -95,7 +95,7 @@
 }
 .process_bg {
   position: absolute;
-  bottom: -185px;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   width: 170%;
