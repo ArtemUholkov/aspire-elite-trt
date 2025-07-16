@@ -1,14 +1,13 @@
 .banner {
   width: 100%;
-  padding-top: 250px;
+  padding-top: 160px;
 }
 
 .banner_wrapper {
-  background-image: url('../images/banner/bg.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 50px 150px;
+  padding: 50px 120px;
   border-radius: 22px;
   display: flex;
   flex-direction: column;
@@ -44,7 +43,8 @@
 .banner_items-wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-top: 42px;
+  margin: 42px 0 68px;
+
 }
 .banner_item {
   display: flex;
@@ -72,7 +72,7 @@
   color: var(--Light, #fefefe);
   /* H3 */
   font-family: Montserrat;
-  font-size: 26px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 700;
   line-height: 120%; /* 31.2px */
@@ -94,15 +94,14 @@
 
 .banner_item:nth-child(1),
 .banner_item:nth-child(2),
-.banner_item:nth-child(4),
-.banner_item:nth-child(5) {
+.banner_item:nth-child(4) {
   grid-column: span 1;
 }
 
-.banner_item:nth-child(3),
-.banner_item:nth-child(6),
-.banner_item:nth-child(7) {
+.banner_item:nth-child(5) {
   grid-column: span 2;
+  max-width: 600px;
+  justify-self: center;
 }
 
 @media (max-width: 1440px) {

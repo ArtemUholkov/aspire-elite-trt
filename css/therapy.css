@@ -1,0 +1,75 @@
+.therapy {
+    padding: 250px 0 0;
+}
+
+.therapy__container {
+    max-width: 1420px;
+    margin: 0 auto;
+    min-height: 300px;
+    background-image: url('/images/theraphy/therapy-bcg.png');
+}
+
+.therapy__text-wrap {
+    max-width: 660px;
+}
+
+.therapy__title {
+    color: #FEFEFE;
+    font-size: 52px;
+    font-style: normal;
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
+.therapy__container-wrap {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    align-items: center;
+    padding: 50px 0;
+    gap: 50px;
+    max-width: 1014px;
+    margin: 0 auto;
+}
+
+.therapy__text {
+    color: #FEFEFE;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+}
+
+@media (max-width: 750px) {
+    .therapy__container-wrap {
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 1fr;
+        padding: 20px;
+    }
+
+    .therapy__text-wrap {
+        position: relative;
+        z-index: 1;
+    }
+
+    .therapy__title {
+        max-width: 250px;
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+
+    .therapy__text {
+        font-size: 18px;
+    }
+
+    .therapy {
+        padding: 50px 8px 0;
+    }
+
+    .therapy__img {
+        width: 202px;
+        transform: translate(110px, 60px);
+    }
+}

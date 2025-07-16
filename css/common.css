@@ -9,7 +9,7 @@
   position: relative;
 }
 body {
-  background-color: #181c21;
+background: linear-gradient(180deg, #000 7.55%, #101316 42.66%, #181C21 90.67%);
   overflow-x: hidden;
 }
 section {

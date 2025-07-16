@@ -20,9 +20,11 @@
 @import 'transform.css';
 @import 'bottles.css';
 @import 'steps.css';
+@import 'therapy.css';
+
 /* Main styles */
 :root {
-  /* Add your CSS variables here */
+    /* Add your CSS variables here */
 }
 
 /* Add your custom styles below */

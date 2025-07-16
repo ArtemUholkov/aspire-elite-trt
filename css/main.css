@@ -108,7 +108,7 @@ h1 {
   font-weight: 700;
   line-height: 120%; /* 55.2px */
   text-transform: uppercase;
-  max-width: 670px;
+  max-width: 470px;
   margin-bottom: 32px;
 }
 
@@ -132,6 +132,7 @@ h1 {
   line-height: normal;
   width: auto;
   align-self: flex-start;
+  background-color: #0A0A0A;
 }
 
 .main_cta_button:hover {
