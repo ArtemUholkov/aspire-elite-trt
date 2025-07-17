@@ -2,16 +2,18 @@
 
 /* Container */
 .container {
-  width: 100%;
-  max-width: 1460px;
-  margin: 0 auto;
-  padding: 0 20px;
-  position: relative;
+    width: 100%;
+    max-width: 1460px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
 }
+
 body {
-background: linear-gradient(180deg, #000 7.55%, #101316 42.66%, #181C21 90.67%);
-  overflow-x: hidden;
+    background: #181c21;
+    overflow-x: hidden;
 }
+
 section {
-  overflow: hidden;
+    overflow: hidden;
 }
